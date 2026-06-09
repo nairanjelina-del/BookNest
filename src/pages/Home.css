@@ -1,0 +1,64 @@
+.home-container{
+
+text-align:center;
+
+padding:80px 30px;
+
+}
+
+.home-container h1{
+
+font-size:42px;
+
+margin-bottom:10px;
+
+}
+
+.home-container p{
+
+color:gray;
+
+margin-bottom:40px;
+
+}
+
+.home-cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.option-card{
+
+width:280px;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:
+0 2px 10px rgba(0,0,0,0.1);
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+.option-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.option-card h2{
+
+margin-bottom:15px;
+
+}

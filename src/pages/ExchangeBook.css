@@ -1,0 +1,63 @@
+.exchange-container{
+
+display:flex;
+
+justify-content:center;
+
+padding:50px;
+
+}
+
+.exchange-box{
+
+width:450px;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:
+0 2px 10px rgba(0,0,0,0.1);
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.exchange-box input,
+.exchange-box textarea{
+
+padding:12px;
+
+border:1px solid #ccc;
+
+border-radius:8px;
+
+font-size:15px;
+
+}
+
+.exchange-box textarea{
+
+height:100px;
+
+resize:none;
+
+}
+
+.exchange-box button{
+
+padding:12px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
